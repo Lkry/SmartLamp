@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/background1">
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/title1"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="-65dp"
+        android:textColor="@color/white"
+        android:text="智能台灯"
+        android:textSize="30dp"/>
+    <Button
+        android:id="@+id/button1"
+        android:layout_marginTop="70dp"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/button1">
+    </Button>
+    <RelativeLayout
+        android:id="@+id/layout_search"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:layout_marginTop="140dp"
+            android:layout_centerHorizontal="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/button2"
+            />
+        <TextView
+            android:id="@+id/layout_blename"
+            android:padding="10dp"
+            android:layout_width="130dp"
+            android:layout_height="60dp"
+            android:layout_marginTop="140dp"
+            android:layout_centerHorizontal="true"
+            android:gravity="center"
+            android:text="暂无设备"
+            android:textSize="18dp"
+            android:textColor="@color/white"/>
+    </RelativeLayout>
+
+
+    </LinearLayout>
+
